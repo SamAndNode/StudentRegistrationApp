@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndLab01</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="student_id">Student ID</string>
+    <string name="student_age">Student Age</string>
+    <string name="student_address">Student Address</string>
+    <string name="student_email">Student Email</string>
+    <string name="register">Register</string>
+    <string name="student_registration_form">Student Registration Form</string>
+    <string name="student_name">Student Name</string>
+</resources>

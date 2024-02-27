@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="18sp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/student_registration_form"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#50c2c9"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/stId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/white"
+        android:hint="@string/student_id"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:fontFamily="monospace"
+        />
+
+    <EditText
+        android:id="@+id/stName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/white"
+        android:hint="@string/student_name"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:fontFamily="monospace"
+        />
+
+
+
+    <EditText
+        android:id="@+id/stAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/white"
+        android:hint="@string/student_age"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:fontFamily="monospace"
+        />
+
+    <EditText
+        android:id="@+id/stAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/white"
+        android:hint="@string/student_address"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:fontFamily="monospace"
+        />
+
+    <EditText
+        android:id="@+id/stEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/white"
+        android:hint="@string/student_email"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:fontFamily="monospace"
+        />
+
+    <Button
+        android:paddingTop="10sp"
+        android:id="@+id/btn_login"
+        android:text="@string/register"
+        android:textSize="20dp"
+        android:layout_marginTop="26dp"
+        android:layout_width="360dp"
+        android:layout_height="60dp"/>
+
+
+</LinearLayout>
